@@ -28,7 +28,7 @@ def detect_face(img):
         gray,
         scaleFactor=1.1,
         minNeighbors=5,
-        minSize=(30,30)
+        minSize=(100,100)
     )
 
     print("Found {0} faces !".format(len(faces)))
