@@ -236,7 +236,7 @@ def get_similar_images():
     return {"similar_images": similar_images}
  
 @app.route('/web-search', methods=['POST'])
-def search_web(search_image_url:str):
+def search_web():
 # def search_web(search_image_url:str):
     data = request.json
     search_image_url = data['search_image_url']

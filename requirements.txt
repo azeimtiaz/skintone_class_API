@@ -4,7 +4,8 @@ opencv-python==4.8.0.76
 pandas==2.0.3
 Flask
 Pillow==9.4.0
-numpy==1.25.2
+numpy
 torch==2.0.1
 torchvision==0.15.2
 beautifulsoup4==4.12.2
+pydantic
