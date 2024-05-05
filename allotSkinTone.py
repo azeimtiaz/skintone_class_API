@@ -40,12 +40,7 @@ def allotSkin(colorsList):
         # list.append(elem)
     
     indexOfMinDist = diffList.index(min(diffList))
-    # print(colors[indexOfMinDist])
-    # label = "Dark" if (indexOfMinDist == 0) else "Mid Brown" if (indexOfMinDist == 1) else "Fair"
     return indexOfMinDist
-    # allotedSkinTone = colors[indexOfMinDist]
-    # return allotedSkinTone
-
 
 def diffColor(colorsList,colorX):
     x1 = abs(colorsList[0]-colorX[0])
